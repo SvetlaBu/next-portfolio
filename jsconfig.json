@@ -2,9 +2,9 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"]
-      "@public/*": ["./public/*"],
-      "@audio/*": ["./public/audio/*"],
-      "@models/*": ["./public/models/*"]
+      "@public*": ["./public/*"],
+      "@audio*": ["./public/audio/*"],
+      "@models*": ["./public/models/*"]
       
     }
   }
