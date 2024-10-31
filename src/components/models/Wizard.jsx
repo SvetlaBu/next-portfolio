@@ -211,4 +211,4 @@ const Wizard = React.memo(function Wizard(props) {
 });
 
 export default Wizard;
-useGLTF.preload("/models/wizard-transformed.glb");
+useGLTF.preload("${basePath}/public/models/wizard-transformed.glb");
