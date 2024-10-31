@@ -13,7 +13,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
 export default function Witch(props) {
-  const { nodes, materials } = useGLTF('/next-portfolio/public/models/witch-transformed.glb')
+  const { nodes, materials } = useGLTF('${basePath}/public/models/witch-transformed.glb')
   
   const modelRef = useRef()
 
