@@ -15,6 +15,12 @@ const nextConfig = {
    
     // Optional: Change the output directory `out` -> `dist`
     // distDir: 'dist',
-  };
+    webpack(config) {
+        .addLoader({
+        test: /\.(glb|gltf|mp3)$/,
+        loader: 'file-loader'
+        })
+    }
+}
    
   module.exports = nextConfig
