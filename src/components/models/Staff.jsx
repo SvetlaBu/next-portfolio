@@ -73,4 +73,4 @@ const Staff = React.memo(function Staff(props) {
 });
 
 export default Staff;
-useGLTF.preload("/models/staff-transformed.glb");
+useGLTF.preload("${basePath}/public/models/staff-transformed.glb");
