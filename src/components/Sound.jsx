@@ -87,7 +87,7 @@ const Sound = () => {
       )}
 
       <audio ref={audioRef} loop>
-        <source src={"/next-portfolio/public/audio/birds39-forest-20772.mp3"} type="audio/mpeg" />
+        <source src={"${basePath}/public/audio/birds39-forest-20772.mp3"} type="audio/mpeg" />
         your browser does not support the audio element.
       </audio>
       <motion.button
