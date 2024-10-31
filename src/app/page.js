@@ -1,6 +1,9 @@
 import Image from "next/image";
 import bg from "../../public/background/home-background.png";
+import audio from "../../public/background/home-background.png
 import RenderModelWitch from "@/components/RenderModelWitch";
+import audio from "../../public/audio/birds39-forest-20772.mp3";
+import model from "../../public/models/witch-transformed.glb";
 import Witch from "@/components/models/witch";
 import Navigation from "@/components/navigation";
 
