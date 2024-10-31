@@ -42,4 +42,4 @@ export default function Witch(props) {
   )
 }
 
-useGLTF.preload('/models/witch-transformed.glb')
+useGLTF.preload('${basePath}/public/models/witch-transformed.glb')
