@@ -10,18 +10,16 @@ const nextConfig = {
     distDir: 'dist',
     images: {
         unoptimized: true,
-    }
-    webpack(config) {
+    },
     exports: {
         test: /\.(gif|mp3|glb)?$/,
         loader: 'file-loader',
         options: {
         name: 'assets/[name].[ext]',
         },
-    },
     compiler: {
         styledComponents: true
-    },
+    }
     
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
     // trailingSlash: true,
