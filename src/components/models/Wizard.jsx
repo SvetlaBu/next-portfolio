@@ -8,7 +8,7 @@ import { useFrame } from "@react-three/fiber";
 
 const Wizard = React.memo(function Wizard(props) {
   // Use React.memo for performance optimization
-  const { nodes, materials } = useGLTF("/next-portfolio/public/models/wizard-transformed.glb");
+  const { nodes, materials } = useGLTF("${basePath}/public/models/wizard-transformed.glb");
 
   const modelRef = useRef();
 
