@@ -13,7 +13,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
 export default function Witch(props) {
-  const { nodes, materials } = useGLTF('/models/witch-transformed.glb')
+  const { nodes, materials } = useGLTF('${basePath}/public/models/witch-transformed.glb')
   
   const modelRef = useRef()
 
@@ -42,4 +42,4 @@ export default function Witch(props) {
   )
 }
 
-useGLTF.preload('/models/witch-transformed.glb')
+useGLTF.preload('${basePath}/public/models/witch-transformed.glb')
