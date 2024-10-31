@@ -8,7 +8,7 @@ import { useFrame } from "@react-three/fiber";
 
 const HatModel = React.memo(function HatModel(props) {
   // Use React.memo for performance optimization
-  const { nodes, materials } = useGLTF("next-portfolio/models/hat-transformed.glb");
+  const { nodes, materials } = useGLTF("next-portfolio/public/models/hat-transformed.glb");
 
   const modelRef = useRef();
 
