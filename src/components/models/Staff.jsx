@@ -8,7 +8,7 @@ import { useFrame } from "@react-three/fiber";
 
 const Staff = React.memo(function Staff(props) {
   // Use React.memo for performance optimization
-  const { nodes, materials } = useGLTF("/public/models/staff-transformed.glb");
+  const { nodes, materials } = useGLTF("/next-portfolio/public/models/staff-transformed.glb");
   const modelRef = useRef();
 
   useFrame(() => {
