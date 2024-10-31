@@ -5,7 +5,7 @@ import Witch from "@/components/models/witch";
 import Navigation from "@/components/navigation";
 
 import dynamic from "next/dynamic";
-const Wizard = dynamic(() => import("@/components/models/Wizard"), {
+const Witch = dynamic(() => import("@/components/models/witch"), {
   ssr: false,
 });
 
