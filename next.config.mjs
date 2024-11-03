@@ -53,11 +53,19 @@ const nextConfig = {
             },
         ],
     },
-    module.exports: {
+    // module.exports: {
+    //     test: /\.(gif|png|jpg|jpeg|mp3|glb)?$/i,
+    //     type: 'asset/resource',
+    //     },
+    // },
+   module: {
+     rules: [
+      {
         test: /\.(gif|png|jpg|jpeg|mp3|glb)?$/i,
         type: 'asset/resource',
-        },
-    },
+      },
+     ],
+   },
     compiler: {
         styledComponents: true
     },
