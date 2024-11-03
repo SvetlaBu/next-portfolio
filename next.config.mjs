@@ -53,8 +53,8 @@ const nextConfig = {
             },
         ],
     },
-    exports: {
-        test: /\.(gif|png|jpg|jpeg|mp3|glb)?$/,
+    module.exports: {
+        test: /\.(gif|png|jpg|jpeg|mp3|glb)?$/i,
         type: 'asset/resource',
         },
     },
