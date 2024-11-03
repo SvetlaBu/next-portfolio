@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Volume2, VolumeX } from "lucide-react";
-import audio from "audio/ds39-forest-20772.mp3?url";
+import audio from "./audio/ds39-forest-20772.mp3";
 import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
