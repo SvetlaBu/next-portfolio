@@ -55,9 +55,7 @@ const nextConfig = {
     },
     exports: {
         test: /\.(gif|png|jpg|jpeg|mp3|glb)?$/,
-        loader: 'file-loader',
-        options: {
-        name: 'assets/[name].[ext]',
+        type: 'asset/resource',
         },
     },
     compiler: {
