@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import audio from "../../dist/static/media/ds39-forest-20772.mp3";
 import { Volume2, VolumeX } from "lucide-react";
 import audio from "../../img/audio/ds39-forest-20772.mp3";
 import React, { useEffect, useRef, useState } from "react";
