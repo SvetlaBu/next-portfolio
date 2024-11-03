@@ -21,7 +21,6 @@
 //   module.exports = nextConfig
 
 const nextConfig = {
-    // basePath: isProd ? '/intern-pognali-2-4' : '',
     output: 'export',
     distDir: 'dist',
     webpack(config) {
