@@ -57,7 +57,7 @@ const nextConfig = {
         test: /\.(gif|png|jpg|jpeg|mp3|glb)?$/,
         loader: 'file-loader',
         options: {
-        name: 'assets/img/[name].[ext]',
+        name: 'assets/[name].[ext]',
         },
     },
     compiler: {
