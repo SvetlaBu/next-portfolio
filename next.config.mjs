@@ -42,6 +42,10 @@ const nextConfig = {
         name: 'assets/img/[name].[ext]',
         },
     },
+    exports: {
+        distDir: 'dist',
+    },
+
     compiler: {
         styledComponents: true
     },
