@@ -1,8 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import audio from "../../dist/static/media/ds39-forest-20772.mp3";
 import { Volume2, VolumeX } from "lucide-react";
-import audio from "../../img/audio/ds39-forest-20772.mp3";
+// import audio from "/audio/birds39-forest-20772.mp3";
 import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
@@ -89,7 +88,7 @@ const Sound = () => {
       )}
 
       <audio ref={audioRef} loop>
-        <source src={audio} type="audio/mpeg" />
+        <source src="birds39-forest-20772.mp3" type="audio/mpeg" />
         your browser does not support the audio element.
       </audio>
       <motion.button
